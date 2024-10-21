@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.svg{
+    display: flex;
+    justify-content: space-around;
+}
+
+#torre-svg{
+    width: 83px;
+}
+
+#reina-svg{
+    width: 95px;
+}
+
+#cab-svg{
+    width: 83px;
+
+}
+
+#rey-svg{
+    width: 84px;
+}
+
+.svg-item{
+    width:60px;
+    
+}
+
+body{
+    font-style: ubuntu;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: #333;
+    padding: 8px 16px;
+}
+
+.lista{
+    color: white;
+    
+    text-decoration: none;
+    
+
+}
+
+
+
+.lista a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+}
+.lista a:hover{
+    background-color: white;
+    color: #333;
+}
+
+
+@media (min-width: 920px){
+    .svg{
+        display: flex;
+        justify-content: space-around;
+    }
+    .lista a{
+   
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 30px; 
+    }
+   
+}

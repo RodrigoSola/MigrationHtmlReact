@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3{
+    text-align: center;
+    color: #333;
+    margin-bottom: 16px;
+    font-size: 64px;
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+.jugadores{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    margin-left: 150px;
+    
+}
+
+img{
+    width: 180px;
+}
+.lista-jug{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 110px;
+    
+}
+#radio1, #radio2{
+    width: 50px;
+}
+.formulario input{
+    width: 500px;
+    margin-bottom: 10px;
+    
+}
+.formulario textarea{
+    height: 50px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.genero{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+
+button{
+    width: 100px;
+    padding: 15px;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 42px;
+    
+}
+
+#btn-reset{
+    background-color: red;
+}
+
+#btn-enviar{
+    background-color: #887f7f;
+}
+

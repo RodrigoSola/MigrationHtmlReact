@@ -1,0 +1,42 @@
+
+
+h1{
+    text-align: center;
+    color: #333;
+    margin-bottom: 16px;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+
+img{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 50px;
+
+}
+p{
+    font-family: ubuntu;
+}
+
+
+
+.historia{
+    text-align: center;
+    margin: 30px;
+}
+
+
+@media (min-width: 920px){
+    
+    h1{
+        font-size: 64px; 
+    }
+  
+}

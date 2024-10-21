@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.jugadores{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    
+    
+}
+
+.jugadores div{
+    width: 300px;
+    
+    background-color: rgb(55, 87, 87);
+    margin: 10px;
+}
+
+.img-jugadores{
+    width: 250px;
+    height: 200px;
+}
+
+.jugadores div img{
+   
+    margin-left: 25px;
+    
+}
+
+h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+.jugadores div p{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+#nuevo-jugador{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    display: contents;
+}
+
+#nuevo-jugador img{
+    width: 250px;
+    align-items: center;
+    margin-left: 26px;
+}
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+}
+label{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+input{
+    padding:5px;
+}
+button{
+    padding: 10px 20px;
+    margin:  10px 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+input:valid{
+    border-color: green;
+}
+
+input:invalid{
+    border-color: red;
+}
+
