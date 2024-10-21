@@ -1,6 +1,4 @@
 import "../public/css/style.css";
-import Footer from "../src/componentes/layouts/Footer";
-import Header from './componentes/layouts/Header';
 import image from "../public/img/Ajedrez.jpeg"
 import Historia from "./componentes/Historia";
 import Pages from "./componentes/layouts/Pages";
