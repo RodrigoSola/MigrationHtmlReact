@@ -6,6 +6,7 @@
 .svg{
     display: flex;
     justify-content: space-around;
+    margin-bottom: -17px;
 }
 
 #torre-svg{
@@ -27,7 +28,7 @@
 
 .svg-item{
     width:60px;
-    
+    max-height: 116px;
 }
 
 body{

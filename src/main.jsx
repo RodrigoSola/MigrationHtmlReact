@@ -7,6 +7,8 @@ import Piezas from '../src/componentes/Piezas.jsx';
 import Movimientos from './componentes/Movimientos.jsx';
 import FormContacto from './componentes/FormContacto.jsx';
 import Jugadores from './componentes/Jugadores.jsx';
+import Register from './componentes/Register.jsx';
+import Login from './componentes/Login.jsx';
 
 
 const router = createBrowserRouter([
@@ -30,7 +32,15 @@ const router = createBrowserRouter([
   {
     path:"/contacto",
     element: <FormContacto />
-  }
+  },
+  {
+    path:"/register",
+    element: <Register />
+  },
+  {
+    path:"/login",
+    element: <Login />
+  },
 
 
 ]);
