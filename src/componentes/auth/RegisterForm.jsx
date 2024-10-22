@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../../../public/css/formulario.css'
+import { addUser } from '../users/addUser';
 function RegisterForm() {
  const baseUrl ='https://6717f8c5b910c6a6e02abd14.mockapi.io/api/users'
 
@@ -20,30 +21,10 @@ function RegisterForm() {
 
   }
 
-  async function addUser(user) {
-    try {
-      const response = await fetch(baseUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(user)
-      })
-      if (!response.ok) {
-        throw new Error("Error en la solicitud")
-        
-      } const data = await response.json()
-      console.log(data)
-
-      } catch (error) {
-      console.log(error)
-      
-    }
-  }
 
   function sendUser(e) {
     e.preventDefault();
-    addUser(formData)
+    addUser(formData, baseUrl)
   }
   return (
     <form className="formLayout" onSubmit={sendUser} >

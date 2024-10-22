@@ -22,9 +22,7 @@ h1, h3{
     
 }
 
-img{
-    width: 180px;
-}
+
 .lista-jug{
     display: flex;
     flex-direction: row;
